@@ -9,13 +9,13 @@ html, body {
 
 /* CAN (MUST) BE REMOVED ! Sample Global style */
 .container {
+  background: #2a2a2a;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  background: url(./assets/background.jpg) no-repeat center fixed;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 

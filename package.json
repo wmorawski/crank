@@ -1,12 +1,9 @@
 {
-  "name": "angular-electron",
-  "version": "11.2.0",
-  "description": "Angular 14 with Electron 21 (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
-  "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
-  },
+  "name": "crank",
+  "version": "0.0.1",
+  "description": "Blitz for CSGO",
+  "homepage": "https://github.com/wmorawski/crank",
+  "author": "@wmorawski",
   "keywords": [
     "angular",
     "angular 14",
