@@ -2,15 +2,12 @@
 html, body {
   margin: 0;
   padding: 0;
-
-  height: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* CAN (MUST) BE REMOVED ! Sample Global style */
 .container {
   background: #2a2a2a;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,12 +15,6 @@ html, body {
 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
-
-  .title {
-    color: white;
-    margin: 0;
-    padding: 50px 20px;
-  }
 
   a {
     color: #fff !important;
@@ -40,9 +31,9 @@ html, body {
       background: #fff;
       color: #ed3330 !important;
       letter-spacing: 1px;
-      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-      -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-      box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+      box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
       transition: all 0.4s ease 0s;
     }
   }

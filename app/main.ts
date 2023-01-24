@@ -1,4 +1,4 @@
-import {app, BrowserWindow, screen} from 'electron';
+import {app, BrowserWindow} from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
 
@@ -8,12 +8,11 @@ const args = process.argv.slice(1),
 
 function createWindow(): BrowserWindow {
 
-  const size = screen.getPrimaryDisplay().workAreaSize;
+  // const size = screen.getPrimaryDisplay().workAreaSize;
+  const size = {width: 1280, height: 720};
 
   // Create the browser window.
   win = new BrowserWindow({
-    x: 0,
-    y: 0,
     width: size.width,
     height: size.height,
     webPreferences: {
@@ -34,7 +33,7 @@ function createWindow(): BrowserWindow {
     let pathIndex = './index.html';
 
     if (fs.existsSync(path.join(__dirname, '../dist/index.html'))) {
-       // Path when running electron in local folder
+      // Path when running electron in local folder
       pathIndex = '../dist/index.html';
     }
 
